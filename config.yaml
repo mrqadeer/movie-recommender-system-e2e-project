@@ -1,0 +1,9 @@
+paths:
+  raw_data_movies: data/raw/tmdb_5000_credits.csv 
+  raw_data_credits: data/raw/tmdb_5000_movies.csv
+  cleaned_df_path: data/raw/cleaned_df.csv
+  processed_df_path: data/processed/processed_data.csv
+  model_df_path: models/model.pkl
+  similarity_array_path: models/similarity.npy
+params:
+  max_features: 10000
