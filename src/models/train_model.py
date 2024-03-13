@@ -5,6 +5,11 @@ from src.data.make_dataset import paths
 from src.features.build_features import BuildingFeatures
 from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
+
+df_path=paths['paths']['processed_df_path']
+df_model_path=paths['paths']['model_df_path']
+similarity_array_path=paths['paths']['similarity_array_path']
+
 class TrainingModel(BuildingFeatures):
     def __init__(self) -> None:
         super().__init__()
@@ -18,9 +23,7 @@ class TrainingModel(BuildingFeatures):
         similarity=cosine_similarity(vectors).astype(np.float32)
         return similarity
 if __name__=="__main__":
-    df_path=paths['paths']['processed_df_path']
-    df_model_path=paths['paths']['model_df_path']
-    similarity_array_path=paths['paths']['similarity_array_path']
+    
     
     if os.path.exists(df_model_path) and os.path.exists(similarity_array_path):
         print(f"Models already Saved.")
