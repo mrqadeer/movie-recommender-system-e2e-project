@@ -1,6 +1,9 @@
+requirements:
+  - requirements.txt
 files_to_run:
   - src/data/make_dataset.py
   - src/features/build_features.py
   - src/models/train_model.py
-  
+streamlit_app:
+  - streamlit_app.py
 
