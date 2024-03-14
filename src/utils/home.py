@@ -26,13 +26,13 @@ class Home:
             st.markdown('Login to <a href="https://www.themoviedb.org/">TMDB</a>',unsafe_allow_html=True)
             st.markdown('Get API Key <a href="https://www.themoviedb.org/settings/api">API KEY</a>',unsafe_allow_html=True)
             
-            key=st.text_input("Enter Key: ",type='password')
+            # key=st.text_input("Enter Key: ",type='password')
             
-            ok=st.button("Submit")
-            if ok:
-                st.session_state.key=key
-                with open('.env','w') as file:
-                    file.write(f"TMDB_API_KEY='{key}'")
+            # ok=st.button("Submit")
+            # if ok:
+            #     st.session_state.key=key
+            #     with open('.env','w') as file:
+            #         file.write(f"TMDB_API_KEY='{key}'")
         st.markdown('<p class="name-text">Qadeer Ahmad</p>', unsafe_allow_html=True)
         with st.expander("About Me",expanded=True):
             st.markdown('''<p class="about-me"> I am <span class="my-text"> Data Science,Machine
