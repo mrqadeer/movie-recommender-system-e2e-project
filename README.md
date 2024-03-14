@@ -40,6 +40,14 @@
       - Scripts to train models and then use trained models to make predictions
         ├── predict_model.py
         └── train_model.py
+    - **utils**
+      - Scripts for helping streamlit app
+        ├── home.py 
+        └── prediction.py
+      - **static**
+        ├── home.css
+        ├── prediction.css
+        └── main.css
     - **visualization**  
       - Scripts to create exploratory and results oriented visualizations
        └── visualize.py
