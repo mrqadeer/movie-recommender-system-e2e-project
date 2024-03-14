@@ -24,11 +24,11 @@ div.st-emotion-cache-sh2krr.e1nzilvr5{
     font-weight: 500;
 }
 .about-project .movie-text{
-    color: rgb(3, 255, 3);
+    color: rgb(0, 0, 0);
 }
 a {
     text-decoration: none;
-    color: rgb(230, 195, 0) !important;
+    color: rgb(0, 81, 255) !important;
     font-weight: 500;
 }
 a:hover {
@@ -37,7 +37,7 @@ a:hover {
 }
 
 .about-me .my-text{
-    color: rgb(181, 246, 255);
+    color: rgb(158, 1, 158);
 }
 .name-text {
     background-color: #050308; /* Green background color */

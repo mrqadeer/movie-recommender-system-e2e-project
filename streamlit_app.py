@@ -12,10 +12,10 @@ st.set_page_config("Movie Recommendation System",page_icon='🎥')
 #main class
 class App:
     def __init__(self) -> None:
-        
-        with open('src/utils/static/main.css','r') as stlye:
-            st.markdown(f"<style>{stlye.read()}</style>",unsafe_allow_html=True)
-        st.markdown('<link rel="stylesheet" href="src/utils/static/styles.css">', unsafe_allow_html=True)
+        pass
+        # with open('src/utils/static/main.css','r') as stlye:
+        #     st.markdown(f"<style>{stlye.read()}</style>",unsafe_allow_html=True)
+        # st.markdown('<link rel="stylesheet" href="src/utils/static/styles.css">', unsafe_allow_html=True)
     
     def run(self):
         with st.sidebar:
@@ -26,7 +26,8 @@ class App:
                 menu_icon='info',
                 default_index=0,
                 styles={
-                    "container": {"padding": "15!important", "background-color": '#06040a'},
+                    "menu-title":{"color":'green',"font-size": "26px"},
+                    "container": {"padding": "15!important", "background-color": 'black'},
                     "icon": {"color": "white ", "font-size": "20px"},
                     "nav-link": {"color": "white", "font-size": "20px",'font-weight':'bold', 
                                  "text-align": "left", "margin": "0px",
