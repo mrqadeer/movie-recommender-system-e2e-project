@@ -68,6 +68,7 @@ class ModelPredictions:
             # taking movies list and poster list
             movies_rec,movies_posters=self.recommend(selected_movie,st.session_state.key)
             # making columns as length of movies i.e 5
+            st.info(f"Dear {name} we recommend you 5 Movies of your taste!")
             cols=st.columns(len(movies_rec))
             # displaying movies name and poster
             for count,(name,poster_path) in enumerate(zip(movies_rec,movies_posters)):
