@@ -1,20 +1,16 @@
 import streamlit as st
-import requests
-import os 
-from dotenv import load_dotenv
-load_dotenv()
-key=os.getenv('TMDB_API_KEY')
+import requests # for api hitting
 
 
-
-def get_movie_detail(movie_id):
-    
+def get_movie_detail(movie_id,key):
+    # fething api for poster image path
     try:
         url=f"https://api.themoviedb.org/3/movie/{movie_id}?api_key={key}"
         
         response=requests.get(url)
         response.raise_for_status()
         result=response.json()
+        # final path
         path='https://image.tmdb.org/t/p/w185'+result['poster_path']
     except KeyError as e:
         st.error("Could not fetch image.")

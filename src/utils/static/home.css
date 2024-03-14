@@ -1,3 +1,4 @@
+
 .styled-text {
     background-color: #153105; /* Green background color */
     color: white; /* White text color */
@@ -77,13 +78,4 @@ a:hover {
     align-items: center;
     justify-content: center;
 
-}
-
-/* Prediction styling */
-
-div.st-emotion-cache-cnbvxy.e1nzilvr5{
-    color: white;
-    font-size: medium;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    text-align: center;
 }

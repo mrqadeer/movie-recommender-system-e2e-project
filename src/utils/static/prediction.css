@@ -1,0 +1,23 @@
+
+/* Prediction styling */
+
+div.st-emotion-cache-cnbvxy.e1nzilvr5{
+    color: white;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.movie-text {
+    background-color: #080107; /* Green background color */
+    color: rgb(28, 255, 3); /* White text color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Padding */
+    font-family: 'Poppins', sans-serif; /* Font family */
+    font-size: 32px; /* Font size */
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgb(28, 255, 3);
+}

@@ -52,6 +52,8 @@
 ```bash
 git clone https://github.com/mrqadeer/movie-recommender-system-e2e-project.git
 ```
+Make sure you have ```git``` installed on your machine.
+Otherwise download Zip file and extract it.
 **Navigate to project directory**
 ```bash
 cd movie-recommender-system-e2e-project
@@ -68,5 +70,12 @@ streamlit run streamlit_app.py
 **OR**
 Run following command to train and predict model with streamlit app
 ```bash
-python run.py
+python run.py 
 ```
+
+***Caution***
+**This process will take some time depending on your machine configuration**
+
+This will also downlaod and install ```nltk``` packages
+
+# Thanks 

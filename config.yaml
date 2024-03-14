@@ -6,4 +6,4 @@ paths:
   model_df_path: models/model.pkl
   similarity_array_path: models/similarity.npy
 params:
-  max_features: 10000
+  max_features: 5000
