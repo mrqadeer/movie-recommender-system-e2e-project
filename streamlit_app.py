@@ -1,5 +1,9 @@
 import streamlit as st
 from streamlit_option_menu import option_menu
+import sys 
+sys.path.insert(1,'.')
+from src.utils.home import Home
+from src.utils.prediction import ModelPredictions
 st.set_page_config("Movie Recommendation System",page_icon='🎥')
 
 class App:
@@ -11,7 +15,7 @@ class App:
             app=option_menu(
                 menu_title='Introduction',
                 options=['Home','Prediction'],
-                icons=['house-heart','codepen'],
+                icons=['house-heart','command'],
                 menu_icon='info',
                 default_index=0,
                 styles={
@@ -24,9 +28,12 @@ class App:
                 }
             )
         if app=='Home':
-            st.write("Home")
+            home=Home()
+            home.home()
         if app=='Prediction':
-            st.write("Prediction")
+            prediction=ModelPredictions()
+            prediction.prediction()
+            
 
             
 if __name__=='__main__':

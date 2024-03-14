@@ -1,0 +1,89 @@
+.styled-text {
+    background-color: #153105; /* Green background color */
+    color: white; /* White text color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Padding */
+    font-family: 'Poppins', sans-serif; /* Font family */
+    font-size: 32px; /* Font size */
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(239, 19, 247, 0.329);
+}
+div.st-emotion-cache-sh2krr.e1nzilvr5{
+    color: rgb(21, 225, 252);
+    font-family: 'Poppins', sans-serif; /* Font family */
+    font-size: 32px; /* Font size */
+    font-weight: 500;
+}
+.about-project{
+    font-family: 'Poppins', sans-serif; /* Font family */
+    font-size: 16px; /* Font size */
+    font-weight: 500;
+}
+.about-project .movie-text{
+    color: rgb(3, 255, 3);
+}
+a {
+    text-decoration: none;
+    color: rgb(230, 195, 0) !important;
+    font-weight: 500;
+}
+a:hover {
+    color: #d33682 !important;
+    text-decoration: none;
+}
+
+.about-me .my-text{
+    color: rgb(181, 246, 255);
+}
+.name-text {
+    background-color: #050308; /* Green background color */
+    color: white; /* White text color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Padding */
+    font-family: 'Poppins', sans-serif; /* Font family */
+    font-size: 32px; /* Font size */
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(239, 19, 247, 0.329);
+}
+.social-text {
+    background-color: #140825; /* Green background color */
+    color: white; /* White text color */
+    border-radius: 10px; /* Rounded corners */
+    padding: 10px; /* Padding */
+    font-family: 'Poppins', sans-serif; /* Font family */
+    font-size: 32px; /* Font size */
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid rgba(6, 184, 36, 0.329);
+}
+
+.message {
+
+    color: rgb(1, 204, 255);
+    
+    padding: 5px; /* Padding */
+    font-family: 'Poppins', sans-serif; /* Font family */
+    font-size: 14px; /* Font size */
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* Prediction styling */
+
+div.st-emotion-cache-cnbvxy.e1nzilvr5{
+    color: #d9ff00;
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
