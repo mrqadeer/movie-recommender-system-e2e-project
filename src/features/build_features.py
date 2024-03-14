@@ -3,7 +3,9 @@ sys.path.insert(1,'.')
 from src.data.make_dataset import MakingDataSet,paths
 from nltk.stem.porter import PorterStemmer
 import nltk
-nltk.download('stopwords')
+nltk.download('punkt')  # Download the punkt tokenizer
+nltk.download('wordnet')  # Download the WordNet lemmatizer
+nltk.download('stopwords')  # Download the stopwords corpus
 class BuildingFeatures(MakingDataSet):
     def __init__(self) -> None:
         super().__init__()
